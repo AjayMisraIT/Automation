@@ -1,1 +1,4 @@
-Write-output "Hello there git"
+param(
+$ticket
+)
+Write-output "Hello $ticket"
